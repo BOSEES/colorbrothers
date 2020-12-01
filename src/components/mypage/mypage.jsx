@@ -19,7 +19,6 @@ const Mypage = () => {
         </div>
       </div>
     </div>
-    
     </>
   )
 }

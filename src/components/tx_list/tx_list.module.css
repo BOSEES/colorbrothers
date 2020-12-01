@@ -1,9 +1,8 @@
 @value makerWhite, makerGreen from "../../common/colors.css";
 
 .txListTable {
-  width: 32em;
+  width: 100%;
   text-align: center;
-  margin-left: 6.5em;
 }
 
 .txData {
