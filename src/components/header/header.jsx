@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.title}>
-        <Link className={styles.logo} to="/">
-          <img src="header.png" alt="logo"/>
+        <Link to="/">
+          <img className={styles.logo} src="header.png" alt="logo"/>
         </Link>
         <Link className={styles.register} to="/register">등록하기</Link>
       </div>

@@ -2,6 +2,7 @@
 @value makerLarge from "../../common/size.css";
 
 .banner {
+  padding-top:5em;
   background-color: makerBlack;
   text-align: center;
 }

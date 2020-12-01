@@ -1,16 +1,18 @@
-@value makerGreen, makerGrey from "../../common/colors.css";
+@value makerWhite, makerGreen, makerGrey from "../../common/colors.css";
 @value makerLarge from "../../common/size.css";
 
 .header {
-  /* position: fixed; */
-  width: 60em;
-  margin:1em 0em 1em 20em; 
+  position: fixed;
+  width: 100%;
+  padding:1em 20em 1em 20em;
   display: flex;
   justify-content: space-between;
-  z-index: 0;
+  background-color: makerWhite;
+  z-index: 1;
 }
 
 .logo {
+  height: 2em;
   cursor: pointer;
   margin-right: 4em;
 }
@@ -20,6 +22,7 @@
 }
 
 .register {
+  padding-top: 0.2em;
   color:makerGrey;
   font-weight: bold;
   font-size: makerLarge;

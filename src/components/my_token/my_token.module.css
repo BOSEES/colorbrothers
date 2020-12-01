@@ -1,0 +1,9 @@
+@value makerGrey, makerWhite from "../../common/colors.css";
+
+.input {
+  width: 25em;
+}
+
+.b {
+  margin-right: 4em;
+}
