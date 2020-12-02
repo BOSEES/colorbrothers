@@ -11,7 +11,7 @@ const RegisterInput = () => {
           </div>
           <div className={styles.inputbox}>
             <i className={styles.inputTitle}>차종</i>
-            <input className={styles.input} type="text" placeholder="" />
+            <input className={styles.input} type="text" placeholder="예)소나타" />
           </div>
           <div className={styles.inputbox}>
             <i className={styles.inputTitle}>등록일자</i>
@@ -21,7 +21,7 @@ const RegisterInput = () => {
         <div className={styles.inputs}>
           <div className={styles.inputbox}>
             <i className={styles.inputTitle}>차량번호</i>
-            <input className={styles.input} type="text" placeholder="" />
+            <input className={styles.input} type="text" placeholder="예)11가1111" />
           </div>
           <div className={styles.inputbox}>
             <i className={styles.inputTitle}>파츠</i>
